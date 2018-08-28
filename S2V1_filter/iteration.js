@@ -45,3 +45,9 @@ console.log(no3);
 
 const only2 = numbers.filter(number=> number ===2);
 console.log(only2);
+
+//challenge
+//use the filter method to return only even numbers
+const newNumbers =[1,2,3,4,5,6,7,8,9,10];
+const evens = newNumbers.filter(number=> number % 2 === 0);
+console.log(evens);
